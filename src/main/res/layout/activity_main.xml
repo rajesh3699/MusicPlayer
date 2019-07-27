@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MediaPlayer"
+        android:textSize="32dp"
+        />
+    <ListView
+        android:layout_weight="12"
+        android:id="@+id/okay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        >
+    </ListView>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/PREVIOUS"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Previous" />
+        <Button
+            android:id="@+id/PLAY"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="PLAY"/>
+
+        <Button
+            android:id="@+id/PAUSE"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"/>
+
+        <Button
+            android:id="@+id/NEXT"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
